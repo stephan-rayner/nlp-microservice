@@ -1,12 +1,11 @@
-package sparkexample;
+package echosec;
 
-import sparkexample.RNNSentiment;
+import echosec.RNNSentiment;
 import static spark.Spark.get;
 import static spark.Spark.post;
 
 import java.sql.SQLOutput;
 
-// import java.util.HashMap;
 import com.google.gson.Gson;
 import com.google.gson.JsonParser;
 import com.google.gson.JsonObject;
