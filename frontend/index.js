@@ -31,7 +31,7 @@ app.get('/cheese', function(request, response) {
 
 	unirest.post('http://localhost:8080/api/v0/sentiment')
 		.headers({'Accept': 'application/json', 'Content-Type': 'application/json'})
-		.send({ 'text': 'This text is chill.',})
+		.send({ 'text': 'This text is chill.'})
 		.end( (response) => {
 			console.log("The response is in.")
 			console.log(response.body);
