@@ -1,0 +1,6 @@
+version: '3'
+services:
+  sentiment:
+    build: ./model
+    ports:
+      - "80:4567"
